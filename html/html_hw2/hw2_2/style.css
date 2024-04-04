@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    border: 1px;
+    justify-content:space-evenly;
+    background-color: aqua;
+    padding: 100px
+;
+}
+.container>div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.container>div:hover{
+    border-radius: 50%;
+    background-color:#000;
+    transition-duration: 1s;
+}
