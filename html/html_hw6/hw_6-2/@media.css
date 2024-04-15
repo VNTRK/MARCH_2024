@@ -1,0 +1,23 @@
+@media screen and (max-width:480px) {
+    .container {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content:center ;
+    }
+
+    .container > div {
+        display: flex;
+        align-items: center;
+        font-size: 3em;
+        color: #FAF9F7;
+        border: 2px solid antiquewhite;
+        border-radius: 10px;
+        margin: 1% auto 1% auto;
+        width: 99vw;
+    }
+
+    .block_A, .block_C{
+        height: 15vh;
+    }
+}
